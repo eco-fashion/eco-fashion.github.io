@@ -1,0 +1,147 @@
+/* used a serif font to give the headings a classic fashion magazine vibe */
+h1, h2, h3 {
+    font-family: 'Cambria', serif;
+}
+
+/* baseline setup. using a slightly off-white paper color for the eco feel instead of a pure white */
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfbf9; 
+    color: #333;
+}
+
+/* main site header. using an earthy olive green background and a subtle bottom border for depth */
+#header {
+    background-color: #556b2f;
+    border-bottom: 5px solid #8f9779;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+/* wrapping the nav links. keeping the background identical to the header so it looks like one solid block */
+#navbar {
+    background-color: #556b2f;
+    padding: 12px;
+    text-align: center;
+}
+
+/* styling the actual clickable links. adding padding makes the click area larger for better accessibility */
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+/* hover state so users know the link is interactive. using a fresh leaf green here instead of default colors */
+#navbar a:hover {
+    background-color: #6b8c42;
+    border-radius: 4px;
+}
+
+/* this acts as our main wrapper so the text doesn't stretch infinitely on wide monitors. centering it with margin auto */
+.content-block {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* this hits the 'call to action' requirement. making it bright orange so it pops against the green theme */
+.cta-button {
+    display: inline-block;
+    background-color: #ff9800;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* slight darken on the CTA hover so it feels responsive */
+.cta-button:hover {
+    background-color: #e68a00;
+}
+
+/* fulfilling the table requirement. making it span the full width of the container and collapsing borders so it looks clean */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* adding solid green borders to all table elements to match the theme */
+table, th, td {
+    border: 1px solid #2e7d32;
+}
+
+/* padding out the cells so the text isn't crammed against the lines */
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* giving the table headers a faint green background to separate them from the data rows */
+th {
+    background-color: #e8f5e9;
+}
+
+/* form layout styling for the pledge section. spacing out the input groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* stacking labels on top of inputs instead of side-by-side for better ux */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+/* standardizing the text fields so they span the whole container and have soft rounded corners */
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* styling the submit button to match our earthy theme rather than using the browser's ugly default grey button */
+input[type="submit"] {
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #1b5e20;
+}
+
+/* simple utility class to center our required image */
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* basic footer styling to close out the page nicely and hold the copyright */
+#footer {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 20px;
+    margin-top: 30px;
+    color: #666;
+    border-top: 1px solid #ccc;
+}
