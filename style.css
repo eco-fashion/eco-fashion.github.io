@@ -145,3 +145,20 @@ input[type="submit"]:hover {
     color: #666;
     border-top: 1px solid #ccc;
 }
+
+/* footer area to finish the page with a clean dark section */
+footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    width: 100%;
+    margin-top: 50px; 
+}
+
+/* formatting the text lines to be clean and readable for the team */
+.footer-content p {
+    margin: 8px 0; 
+    font-size: 13px; 
+    font-family: Arial, sans-serif;
+}
